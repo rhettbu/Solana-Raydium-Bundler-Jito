@@ -4,7 +4,7 @@ import { DEFAULT_TOKEN, PROGRAMIDS } from "./clients/constants";
 import { TOKEN_PROGRAM_ID, getMint } from "@solana/spl-token";
 import { Liquidity, MARKET_STATE_LAYOUT_V3, Token, MAINNET_PROGRAM_ID } from "@raydium-io/raydium-sdk";
 import { BN } from "@project-serum/anchor";
-import { ammCreatePool, getWalletTokenAccount } from "./clients/raydiumUtil";
+import { ammCreatePool, getWalletTokenAccount } from "./clients/raydiumSdk";
 import { promises as fsPromises } from "fs";
 import { loadKeypairs } from "./createKeys";
 import { lookupTableProvider } from "./clients/LookupTableProvider";
@@ -13,7 +13,7 @@ import { Bundle as JitoBundle } from "jito-ts/dist/sdk/block-engine/types.js";
 import promptSync from "prompt-sync";
 import * as spl from "@solana/spl-token";
 import { IPoolKeys } from "./clients/interfaces";
-import { derivePoolKeys } from "./clients/poolKeysReassigned";
+import { derivePoolKeys } from "./clients/poolKeys";
 
 import bs58 from "bs58";
 import path from "path";
@@ -54,7 +54,7 @@ export async function buyBundle() {
 		process.exit(0);
 	}
 
-	// -------- step 1: ask nessesary questions for pool build --------
+	//  step 1: ask nessesary questions for pool build 
 	const baseAddr = prompt("Token address: ") || "";
 	const percentOfSupplyInput = prompt("% of your token balance in pool (Ex. 80): ") || "0";
 	const solInPoolInput = prompt("# of SOL in LP (Ex. 10): ") || "0";

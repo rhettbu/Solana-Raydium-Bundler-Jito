@@ -47,7 +47,7 @@ const config = convict({
   },
   geyser_access_token: {
     format: String,
-    default: '00000000-0000-0000-0000-000000000000',
+    default: '00000000-0000-0000-0000-00000000000',
     env: 'GEYSER_ACCESS_TOKEN',
   },
   arb_calculation_num_steps: {

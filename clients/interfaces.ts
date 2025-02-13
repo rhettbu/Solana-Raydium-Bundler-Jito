@@ -40,3 +40,5 @@ export interface ISwpBaseIn {
     minimumAmountOut?: BN;
   };
 }
+
+export interface

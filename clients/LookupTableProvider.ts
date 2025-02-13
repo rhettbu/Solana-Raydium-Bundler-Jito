@@ -7,6 +7,7 @@ import {
 import { connection } from '../../config';
   
   /**
+   * 
    * this class solves 2 problems:
    * 1. cache and geyser subscribe to lookup tables for fast retreival
    * 2. compute the ideal lookup tables for a set of addresses

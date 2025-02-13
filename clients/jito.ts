@@ -36,6 +36,7 @@ const geyserClient = jitoGeyserClient(GEYSER_URL, GEYSER_ACCESS_TOKEN, {
 
 // all bundles sent get automatically forwarded to the other regions.
 // assuming the first block engine in the array is the closest one
+
 const searcherClient = searcherClients[0];
 
 export { searcherClient, searcherClients, geyserClient };

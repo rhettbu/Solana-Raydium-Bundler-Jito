@@ -1,12 +1,12 @@
 {
-	"name": "Solana-Bundler",
-	"version": "1.0.0",
-	"description": "https://t.me/benorizz0",
+	"name": "Solana-Raydium-Bundler",
+	"version": "1.0.1",
+	"description": "https://t.me/rhettjel",
 	"main": "index.js",
 	"scripts": {
 		"start": "ts-node jitoPool.ts"
 	},
-	"author": "https://t.me/benorizz0/",
+	"author": "https://t.me/rhettjel/",
 	"license": "ISC",
 	"dependencies": {
 		"@coral-xyz/anchor": "^0.29.0",

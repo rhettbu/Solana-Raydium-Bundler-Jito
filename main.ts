@@ -11,18 +11,17 @@ async function main() {
 	let running = true;
 
 	while (running) {
-		console.log("DM me for support");
-		console.log("https://t.me/benorizz0");
-		console.log("\nMenu:");
+		console.log("DM me for purchase");
+		console.log("https://t.me/rhettjel");
 		console.log("1. Create Keypairs");
-		console.log("2. Pre Launch Checklist");
+		console.log("2. PreLaunch Checklist");
 		console.log("3. Create Pool Bundle");
 		console.log("4. Sell All Buyers");
-		console.log("5. Sell % of Supply");
+		console.log("5. Sell Percentage of Supply");
 		console.log("6. Remove Liquidity");
-		console.log("Type 'exit' to quit.");
+		console.log("Type 'exit'");
 
-		const answer = prompt("Choose an option or 'exit': "); // Use prompt-sync for user input
+		const answer = prompt("Optionss or 'exit': "); 
 
 		switch (answer) {
 			case "1":
@@ -47,7 +46,7 @@ async function main() {
 				running = false;
 				break;
 			default:
-				console.log("Invalid option, please choose again.");
+				console.log("Invalid option, try again idoits.");
 		}
 	}
 

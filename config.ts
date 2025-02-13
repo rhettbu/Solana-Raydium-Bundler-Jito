@@ -2,7 +2,7 @@ import { Connection, Keypair, PublicKey } from "@solana/web3.js"
 import bs58 from 'bs58';
 import { Wallet } from "@project-serum/anchor";
 
-export const rpc = ''; // ENTER YOUR RPC
+export const rpc = ''; 
 
 export const connection = new Connection(rpc, {
   commitment: 'confirmed',
