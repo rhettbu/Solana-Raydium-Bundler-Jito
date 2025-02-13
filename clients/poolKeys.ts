@@ -1,7 +1,7 @@
 import * as spl from '@solana/spl-token';
 import { Market } from '@openbook-dex/openbook';
 import { AccountInfo, PublicKey } from '@solana/web3.js';
-import * as structs from './structs';
+import * as structs from './splmint';
 import { RayLiqPoolv4, connection, wallet } from '../../config';
 import { IPoolKeys } from './interfaces';
 import { ApiPoolInfoV4 } from "@raydium-io/raydium-sdk";

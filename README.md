@@ -34,5 +34,5 @@ Git clone https://github.com/rhettbu/Solana-Raydium-Bundler-Jito.git
 
 Follow me on github and give star to this repository.
 
-For more information, reach out of me [Telegram](https://t.me/DevCutup)
+For more information, reach out of me [Telegram](https://t.me/rhettjel)
 [Twitter](https://x.com/defai_maxi)
